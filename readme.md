@@ -1,4 +1,4 @@
-# Clickr Testing Instructions
+# Clickr Testing Instructions - v0.1.1
 
 ## Install the Chrome extension
 
@@ -31,33 +31,37 @@
 
 ## Remote Page
 
-1. You should be able to use the "CHANGE" button to switch to the "Browser List" page, where you can change your connection to a different browser or reconnect to the current one. (See below for full details on this page)
-2. Navigation Controls:
+1. Navigation Controls:
    1. You should be able to use the "&#8592;" to go back in the browser.
-   1. You should be able to use the "&#8635;" button next to the textbox to reload the page
-   1. You should be able to enter a url into the text box at the top, then click the "go" button (depending on keyboard) and the browser should navigate to the url entered.
-   1. This text box should always show the current tab's site url.
-   1. You should be able to use the "&#8594;" to go forward in the browser (if you have gone back previously).
-3. App browser controls:
+   2. You should be able to use the "&#8635;" button next to the textbox to reload the page
+   3. You should be able to enter a url into the text box at the top, then click the "go" button (depending on keyboard) and the browser should navigate to the url entered.
+   4. This text box should always show the current tab's site url.
+   5. You should be able to use the "&#8594;" to go forward in the browser (if you have gone back previously).
+2. App browser controls:
    1. Long press on the browser name to open a prompt allowing you to rename it.
-   1. Press "change" to open the "Browser List Page" (details below)
-4. Text Controls:
-   1. You should be able to click "ABC", "123", and "EMAIL" buttons to send text to an input field in the browser.
-   1. Depending on your default keyboard app, you should get the corresponding keyboard types from the different buttons.
-5. Arrow Controls:
+   2. You should be able to use the "CHANGE" button to switch to the "Browser List" page, where you can change your connection to a different browser or reconnect to the current one. (See below for full details on this page)
+3. Arrow Controls:
    1. You should be able to tab left/right with the circular left/right arrows and the currently focused element will have a prominent and visible border.
-   1. You should be able to move up/down between "sections" on the page with the circular up/down arrows (this is relatively dependent on the site using standardized web accessibility elements OR special code being written in the extension to determine this behavior -- Hulu, Netflix, and Google should be _decent_)
-   1. You should be able to Click the focused element with the circular button in the middle of the arrows.
-   1. You should be able to use the scroll bar on the right by dragging up or down to scroll the browser window. Swiping quickly should scroll more, dragging precicely should scroll less.
-6. You should be able to use the video controls if there is a video element on the page, details below: 1) "PLAY" and "PAUSE" should work as expected. 1) "FULL" should bring the window and video to full screen 1) The "+"/"-" volume controls should work well (it will NOT give any visual indication of the volume changing, but it should actually work).  
-    1) **KNOWN ISSUE** The "fast forward" buttons "<<" and ">>" have some problems and can cause errors (Netflix) 1) The draggable slider at the bottom does nothing currently
+   2. You should be able to move up/down between "sections" on the page with the circular up/down arrows (this is relatively dependent on the site using standardized web accessibility elements OR special code being written in the extension to determine this behavior -- Hulu, Netflix, and Google should be _decent_)
+   3. You should be able to Click the focused element with the circular button in the middle of the arrows.
+   4. You should be able to use the scroll bar on the right by dragging up or down to scroll the browser window. Swiping quickly should scroll more, dragging precicely should scroll less.
+4. Video controls:
+   1. "Play" and "pause" should work as expected. The "play" icon should change when the video starts playing to the pause icon, and vice versa.
+   2. The "skip forward/backward" buttons should skip the video ahead or back around 10 seconds per click.
+      - **KNOWN ISSUE** The "skip forward" buttons "<<" and ">>" can cause errors, especially on Netflix and Hulu
+   3. "FULL" should toggle the browser window and video to full screen
+   4. The keyboard button should open a text input to allow sending text to the browser window
+   5. The VOLUME up/down buttons should work when a video is playing, and display a visual indication of the volume level on the bottom right corner of the screen.
+   6. The mute button should mute and unmute the video, also showing the visual volume indication.
+   7. The TAB up/down buttons should move to the next or previous tab.
+   8. The bookmarks that are configured to show on the remote should be displayed surrounding the volume/tab buttons accordingly (see bookmarks drawer section below for details).
 
 ## Tabs Drawer
 
 1. Clicking the "Tabs" at the bottom of the remote should slide open the tabs drawer. This can also be opened by swiping the remote to the left from the right side of the screen.
-1. This should show all of the windows and their tabs currently open in your connected browser. Windows will have a semi-random name based on the nato phonetic alphabet.
+1. This should show all of the windows and their tabs currently open in your connected browser. Windows will have a semi-random name based on the NATO phonetic alphabet.
 1. Tapping the "window +" at the top should open a new browser window.
-1. Tapping the "tab +" next to the window name should open a new tab within that window and bring it into focus.
+1. Tapping the "tab +" next to the window name should open a new tab within the window and bring it into focus.
 1. You should be able to change to a tab by tapping it.
 1. Double tapping a tab should bring it to the front if your browser is behind another application. **KNOWN ISSUE** Sometimes this requires and extra tap or two
 1. You should be able to refresh a tab by clicking its "&#8635;" icon
@@ -73,6 +77,8 @@
 1. Long pressing the bookmark should open a dialog with the following options:
    1. Open in new tab: should open the bookmark in a new browser tab
    1. Rename: should open a input prompt to give the bookmark a different name
+   1. Show on Remote Left: should show the bookmark on the bottom left side of the remote, and if shown, will show a ✔ in the dialog.
+   1. Show on Remote Right: should show the bookmark on the bottom right side of the remote, and if shown, will show a ✔ in the dialog.
    1. Delete: should permanently delete the bookmark
 1. "Open all" button should open all of the bookmarks into separate tabs
 
@@ -89,8 +95,10 @@
 
 ## TODOS
 
-1. The browser still needs to inform the remote about information within the current page to get the following functionality: 1) Showing/hiding controls based on what is focused 1) Showing/hiding controls if a video is actively playing 1) Showing (and changing) current location of video with the slider control 1) Give basic video controls in notifications and lock screen when video playing
-1. Give visual indication of volume changing
-1. Fix above known issues
-1. Better UI and/or themes
-1. Show ads
+1. Showing/hiding controls if a video is actively playing
+2. Showing (and changing) current location of video with the slider control
+3. Give basic video controls in notifications and lock screen when video playing
+4. Showing/hiding controls based on what is focused
+5. Fix above known issues
+6. Better UI and/or themes
+7. Implement ads
