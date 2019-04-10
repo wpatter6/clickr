@@ -1,4 +1,4 @@
-# Clickr Alpha Testing Instructions - v0.1.2
+# Clickr Alpha Testing Instructions - v0.1.3
 
 ## Install the Chrome extension
 
