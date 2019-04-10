@@ -1,4 +1,4 @@
-# Clickr Testing Instructions - v0.1.1
+# Clickr Alpha Testing Instructions - v0.1.2
 
 ## Install the Chrome extension
 
@@ -102,3 +102,9 @@
 5. Fix above known issues
 6. Better UI and/or themes
 7. Implement ads
+
+## Known Issues
+
+1. Skip forward/back buttons can be buggy especially if content is not buffered
+1. Name of the browser does not immediately update on the remote view
+1. Browser will sometimes become unresponsive after long idle periods and will require closing all windows and restarting chrome.
