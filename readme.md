@@ -10,7 +10,7 @@
 
 ## Install the Android app
 
-1. Tap the APK link in this repo using the android device and download the file
+1. Using your android device, tap the APK link [on the releases page](https://github.com/wpatter6/clickr/releases) and download the file
 1. It should prompt that you're "not allowed to install apps from this source"
 1. It should give you the option to allow it and you can install it and run it, (specifics may be different based on your version of android)
 
