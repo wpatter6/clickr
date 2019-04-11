@@ -45,6 +45,7 @@
    2. You should be able to move up/down between "sections" on the page with the circular up/down arrows (this is relatively dependent on the site using standardized web accessibility elements OR special code being written in the extension to determine this behavior -- Hulu, Netflix, and Google should be _decent_)
    3. You should be able to Click the focused element with the circular button in the middle of the arrows.
    4. You should be able to use the scroll bar on the right by dragging up or down to scroll the browser window. Swiping quickly should scroll more, dragging precicely should scroll less.
+   5. You should be able to use the zoom buttons on the left to zoom in or out on the current browser page.
 4. Video controls:
    1. "Play" and "pause" should work as expected. The "play" icon should change when the video starts playing to the pause icon, and vice versa.
    2. The "skip forward/backward" buttons should skip the video ahead or back around 10 seconds per click.
