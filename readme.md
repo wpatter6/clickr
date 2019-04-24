@@ -1,4 +1,17 @@
-# Clickr Alpha Testing Instructions - v0.1.4
+# Clickr Alpha Testing Instructions - v1.1.1
+
+## Install the App
+
+### iOS:
+
+1. Join the test flight by [clicking here](https://testflight.apple.com/join/ESs2Bs97)
+1. There are lots of known issues on iOS, I will be working through and updating to get those resolved.
+
+### Android:
+
+1. Using your android device, tap the APK link under assets [on the releases page](https://github.com/wpatter6/clickr/releases/latest) and download the file
+1. It should prompt that you're "not allowed to install apps from this source"
+1. It should give you the option to allow it and you can install it and run it, (specifics may be different based on your version of android)
 
 ## Install the Chrome extension
 
@@ -7,12 +20,6 @@
 1. Click "Load Unpacked" and then pick the folder that you unzipped to (should have 'manifest.json')
 1. To refresh/restart the extension (if something goes horribly wrong) you can click the little refresh icon on that extensions page
 1. Note: any browser windows you have open prior to installing the extension will need to be refreshed for the app to talk to them.
-
-## Install the Android app
-
-1. Using your android device, tap the APK link under assets [on the releases page](https://github.com/wpatter6/clickr/releases/latest) and download the file
-1. It should prompt that you're "not allowed to install apps from this source"
-1. It should give you the option to allow it and you can install it and run it, (specifics may be different based on your version of android)
 
 ## Connect app to browser
 
@@ -43,13 +50,13 @@
 3. Arrow Controls:
    1. You should be able to tab left/right with the circular left/right arrows and the currently focused element will have a prominent and visible border.
    2. You should be able to move up/down between "sections" on the page with the circular up/down arrows (this is relatively dependent on the site using standardized web accessibility elements OR special code being written in the extension to determine this behavior -- Hulu, Netflix, and Google should be _decent_)
-   3. You should be able to Click the focused element with the circular button in the middle of the arrows.
+   3. You should be able to Click the focused element with the circular button in the middle of the arrows. **KNOWN ISSUE** This is broken on iOS currently
    4. You should be able to use the scroll bar on the right by dragging up or down to scroll the browser window. Swiping quickly should scroll more, dragging precicely should scroll less.
    5. You should be able to use the zoom buttons on the left to zoom in or out on the current browser page.
 4. Video controls:
    1. "Play" and "pause" should work as expected. The "play" icon should change when the video starts playing to the pause icon, and vice versa.
    2. The "skip forward/backward" buttons should skip the video ahead or back around 10 seconds per click.
-      - **KNOWN ISSUE** The "skip forward" buttons "<<" and ">>" can cause errors, especially on Netflix and Hulu
+      - **KNOWN ISSUE** The "skip forward" buttons "<<" and ">>" can cause errors, especially on Netflix and Hulu or if content is not buffered
    3. "FULL" should toggle the browser window and video to full screen
    4. The keyboard button should open a text input to allow sending text to the browser window
    5. The VOLUME up/down buttons should work when a video is playing, and display a visual indication of the volume level on the bottom right corner of the screen.
@@ -68,6 +75,7 @@
 1. You should be able to refresh a tab by clicking its "&#8635;" icon
 1. You should be able to close a tab by clicking its "X" icon.
 1. Closing all of the tabs in a window should close the window.
+1. **KNOWN ISSUE** This is broken on iOS currently
 
 ## Bookmarks Drawer
 
@@ -82,6 +90,7 @@
    1. Show on Remote Right: should show the bookmark on the bottom right side of the remote, and if shown, will show a ✔ in the dialog.
    1. Delete: should permanently delete the bookmark
 1. "Open all" button should open all of the bookmarks into separate tabs
+1. **KNOWN ISSUE** This is broken on iOS currently
 
 ## Browser List Page
 
