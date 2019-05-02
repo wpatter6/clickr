@@ -1,11 +1,11 @@
-# Clickr Alpha Testing Instructions - v1.1.1
+# Clickr Alpha Testing Instructions - v1.1.3
 
 ## Install the App
 
 ### iOS:
 
 1. Join the test flight by [clicking here](https://testflight.apple.com/join/ESs2Bs97)
-1. There are lots of known issues on iOS, I will be working through and updating to get those resolved.
+1. There still some known issues on iOS, I will be working through and updating to get those resolved.
 
 ### Android:
 
@@ -47,7 +47,7 @@
 2. App browser controls:
    1. Long press on the browser name to open a prompt allowing you to rename it.
    2. You should be able to use the "CHANGE" button to switch to the "Browser List" page, where you can change your connection to a different browser or reconnect to the current one. (See below for full details on this page)
-3. Arrow Controls:
+3. Movement Controls:
    1. You should be able to tab left/right with the circular left/right arrows and the currently focused element will have a prominent and visible border.
    2. You should be able to move up/down between "sections" on the page with the circular up/down arrows (this is relatively dependent on the site using standardized web accessibility elements OR special code being written in the extension to determine this behavior -- Hulu, Netflix, and Google should be _decent_)
    3. You should be able to Click the focused element with the circular button in the middle of the arrows. **KNOWN ISSUE** This is broken on iOS currently
@@ -90,7 +90,6 @@
    1. Show on Remote Right: should show the bookmark on the bottom right side of the remote, and if shown, will show a ✔ in the dialog.
    1. Delete: should permanently delete the bookmark
 1. "Open all" button should open all of the bookmarks into separate tabs
-1. **KNOWN ISSUE** This is broken on iOS currently
 
 ## Browser List Page
 
