@@ -1,11 +1,11 @@
-# Clickr Alpha Testing Instructions - v1.1.3
+# Clickr Alpha Testing Instructions - v1.1.4
 
 ## Install the App
 
 ### iOS:
 
 1. Join the test flight by [clicking here](https://testflight.apple.com/join/ESs2Bs97)
-1. There still some known issues on iOS, I will be working through and updating to get those resolved.
+1. There still a few known issues on iOS, I will be working through and updating to get those resolved.
 
 ### Android:
 
@@ -50,7 +50,7 @@
 3. Movement Controls:
    1. You should be able to tab left/right with the circular left/right arrows and the currently focused element will have a prominent and visible border.
    2. You should be able to move up/down between "sections" on the page with the circular up/down arrows (this is relatively dependent on the site using standardized web accessibility elements OR special code being written in the extension to determine this behavior -- Hulu, Netflix, and Google should be _decent_)
-   3. You should be able to Click the focused element with the circular button in the middle of the arrows. **KNOWN ISSUE** This is broken on iOS currently
+   3. You should be able to Click the focused element with the circular button in the middle of the arrows.
    4. You should be able to use the scroll bar on the right by dragging up or down to scroll the browser window. Swiping quickly should scroll more, dragging precicely should scroll less.
    5. You should be able to use the zoom buttons on the left to zoom in or out on the current browser page.
 4. Video controls:
@@ -59,6 +59,7 @@
       - **KNOWN ISSUE** The "skip forward" buttons "<<" and ">>" can cause errors, especially on Netflix and Hulu or if content is not buffered
    3. "FULL" should toggle the browser window and video to full screen
    4. The keyboard button should open a text input to allow sending text to the browser window
+      - **KNOWN ISSUE** this is not working on iOS
    5. The VOLUME up/down buttons should work when a video is playing, and display a visual indication of the volume level on the bottom right corner of the screen.
    6. The mute button should mute and unmute the video, also showing the visual volume indication.
    7. The TAB up/down buttons should move to the next or previous tab.
@@ -75,7 +76,6 @@
 1. You should be able to refresh a tab by clicking its "&#8635;" icon
 1. You should be able to close a tab by clicking its "X" icon.
 1. Closing all of the tabs in a window should close the window.
-1. **KNOWN ISSUE** This is broken on iOS currently
 
 ## Bookmarks Drawer
 
