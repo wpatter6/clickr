@@ -16,20 +16,14 @@ More details and issue submission can be found here: https://github.com/wpatter6
 ### iOS:
 
 1. Join the test flight by [clicking here](https://testflight.apple.com/join/ESs2Bs97)
-1. There still a few known issues on iOS, I will be working through and updating to get those resolved.
 
 ### Android:
 
-1. Join the beta test
-1. It should prompt that you're "not allowed to install apps from this source"
-1. It should give you the option to allow it and you can install it and run it, (specifics may be different based on your version of android)
+1. Join the beta test at https://play.google.com/store/apps/details?id=com.willweb.clickr
 
 ## Install the Chrome extension
 
-1. Download the zip file and unzip it into a folder on your machine -- you'll probably want to always re-use the same folder as chrome makes it easy to update that way.
-1. Go to the chrome settings > manage extensions: chrome://extensions/
-1. Click "Load Unpacked" and then pick the folder that you unzipped to (should have 'manifest.json')
-1. To refresh/restart the extension (if something goes horribly wrong) you can click the little refresh icon on that extensions page
+1. Install the extension at https://chrome.google.com/webstore/detail/phenknepgmgjafkipebllabgcjjnnkbg/publish-accepted?authuser=0&hl=en
 1. Note: any browser windows you have open prior to installing the extension will need to be refreshed for the app to talk to them.
 
 ## Connect app to browser
