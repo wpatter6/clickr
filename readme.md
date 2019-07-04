@@ -9,7 +9,7 @@ Clickr uses web accessibility standards to allow users to navigate web sites dis
 
 More details and issue submission can be found here: https://github.com/wpatter6/clickr
 
-# Clickr Alpha Testing Instructions - v1.2.0
+# Clickr Alpha Testing Instructions - v1.2.2
 
 ## Install the App
 
@@ -20,7 +20,7 @@ More details and issue submission can be found here: https://github.com/wpatter6
 
 ### Android:
 
-1. Using your android device, tap the APK link under assets [on the releases page](https://github.com/wpatter6/clickr/releases/latest) and download the file
+1. Join the beta test
 1. It should prompt that you're "not allowed to install apps from this source"
 1. It should give you the option to allow it and you can install it and run it, (specifics may be different based on your version of android)
 
