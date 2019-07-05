@@ -24,7 +24,7 @@ More details and issue submission can be found here: https://github.com/wpatter6
 
 ## Install the Chrome extension
 
-1. Install the extension at https://chrome.google.com/webstore/detail/phenknepgmgjafkipebllabgcjjnnkbg/publish-accepted?authuser=0&hl=en
+1. Install the extension at https://chrome.google.com/webstore/detail/phenknepgmgjafkipebllabgcjjnnkbg
 1. Note: any browser windows you have open prior to installing the extension will need to be refreshed for the app to talk to them.
 
 ## Connect app to browser
